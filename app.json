@@ -40,6 +40,11 @@
         }
       ]
     ],
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
