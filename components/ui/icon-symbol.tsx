@@ -5,7 +5,7 @@ import { SymbolWeight, SymbolViewProps } from 'expo-symbols';
 import { ComponentProps } from 'react';
 import { OpaqueColorValue, type StyleProp, type TextStyle } from 'react-native';
 
-type IconMapping = Record<SymbolViewProps['name'], ComponentProps<typeof MaterialIcons>['name']>;
+type IconMapping = Record<string, ComponentProps<typeof MaterialIcons>['name']>;
 type IconSymbolName = keyof typeof MAPPING;
 
 /**
@@ -18,6 +18,18 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  'chevron.down': 'expand-more',
+  'chevron.up': 'expand-less',
+  'lightbulb.fill': 'lightbulb',
+  'sun.max.fill': 'light-mode',
+  'moon.fill': 'dark-mode',
+  'gearshape.fill': 'settings',
+  'questionmark.circle.fill': 'help',
+  'rectangle.portrait.and.arrow.right': 'exit-to-app',
+  'book.fill': 'menu-book',
+  'checkmark.circle.fill': 'check-circle',
+  'xmark.circle.fill': 'cancel',
+  'play.circle.fill': 'play-circle-filled',
 } as IconMapping;
 
 /**
@@ -37,5 +49,10 @@ export function IconSymbol({
   style?: StyleProp<TextStyle>;
   weight?: SymbolWeight;
 }) {
-  return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;
+  const mappedName = MAPPING[name as keyof typeof MAPPING];
+  if (!mappedName) {
+    // Fallback: try using name directly as MaterialIcons name
+    return <MaterialIcons color={color} size={size} name={name as any} style={style} />;
+  }
+  return <MaterialIcons color={color} size={size} name={mappedName} style={style} />;
 }

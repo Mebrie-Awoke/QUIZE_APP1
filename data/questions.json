@@ -1,0 +1,1036 @@
+[
+  {
+    "id": "q1",
+    "text": "What is the primary purpose of React Native?",
+    "options": [
+      "To create responsive web apps",
+      "To build native mobile apps using JavaScript and React",
+      "To compile Java code",
+      "To manage SQLite databases"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "React Native enables cross-platform native mobile development using JavaScript and React."
+  },
+  {
+    "id": "q2",
+    "text": "Which component is used as the basic layout container in React Native?",
+    "options": ["<View>", "<Text>", "<Container>", "<Div>"],
+    "correctAnswerIndex": 0,
+    "explanation": "<View> is the core layout component for containers."
+  },
+  {
+    "id": "q3",
+    "text": "What is the default flex direction in React Native?",
+    "options": ["row", "column", "row-reverse", "column-reverse"],
+    "correctAnswerIndex": 1,
+    "explanation": "React Native’s default flexDirection is column."
+  },
+  {
+    "id": "q4",
+    "text": "Which hook updates state in functional components?",
+    "options": ["useEffect", "useState", "useContext", "useReducer"],
+    "correctAnswerIndex": 1,
+    "explanation": "useState manages local state in functional components."
+  },
+  {
+    "id": "q5",
+    "text": "How do you perform side effects such as data fetch in React Native?",
+    "options": ["useState", "useMemo", "useEffect", "useCallback"],
+    "correctAnswerIndex": 2,
+    "explanation": "useEffect is intended for side effects like fetching data."
+  },
+  {
+    "id": "q6",
+    "text": "Which API is used for safe area handling on iOS devices?",
+    "options": ["SafeAreaView", "View", "KeyboardAvoidingView", "ScrollView"],
+    "correctAnswerIndex": 0,
+    "explanation": "SafeAreaView ensures UI stays within safe boundaries on devices with notches."
+  },
+  {
+    "id": "q7",
+    "text": "What is the purpose of StyleSheet.create()?",
+    "options": [
+      "Load external CSS",
+      "Improve style performance",
+      "Contains network config",
+      "Manages navigation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "StyleSheet.create helps to optimize style references and performance."
+  },
+  {
+    "id": "q8",
+    "text": "Which package is commonly used for navigation in React Native?",
+    "options": [
+      "react-navigation",
+      "react-router",
+      "expo-splash-screen",
+      "react-native-svg"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "React Navigation is the standard navigation library for React Native."
+  },
+  {
+    "id": "q9",
+    "text": "Which component displays text in React Native?",
+    "options": ["<View>", "<Label>", "<Text>", "<Paragraph>"],
+    "correctAnswerIndex": 2,
+    "explanation": "<Text> renders text on the screen in React Native."
+  },
+  {
+    "id": "q10",
+    "text": "What is the definition of mobile computing?",
+    "options": [
+      "Computing on a desktop",
+      "Computing while on the move",
+      "Server-side computing",
+      "Cloud computing only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Mobile computing is performing computing tasks while the user is mobile."
+  },
+  {
+    "id": "q11",
+    "text": "What does ubiquitous computing emphasize?",
+    "options": [
+      "Large mainframes",
+      "Small devices embedded everywhere",
+      "Only desktop computers",
+      "No computing devices"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Ubiquitous computing involves many small devices embedded in the environment."
+  },
+  {
+    "id": "q12",
+    "text": "Which is a Personal Area Network (PAN) technology?",
+    "options": ["WiFi", "Ethernet", "Bluetooth", "DSL"],
+    "correctAnswerIndex": 2,
+    "explanation": "Bluetooth is a short-range wireless technology used for PANs."
+  },
+  {
+    "id": "q13",
+    "text": "What does WLAN stand for?",
+    "options": [
+      "Wide Local Area Network",
+      "Wireless Local Area Network",
+      "Wired Local Area Network",
+      "Worldwide LAN"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "WLAN stands for Wireless Local Area Network."
+  },
+  {
+    "id": "q14",
+    "text": "Which is a benefit of mobile computing for business?",
+    "options": [
+      "Increased hardware cost",
+      "Simplification of administrative tasks",
+      "Less communication",
+      "Reduced marketing"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Mobile computing simplifies administrative tasks and enhances communication."
+  },
+  {
+    "id": "q15",
+    "text": "What is a limitation of mobile computing?",
+    "options": [
+      "Too much security",
+      "Risks of information flow",
+      "No portability",
+      "Wired only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Information flow risks, especially in unsecured environments, are a limitation."
+  },
+  {
+    "id": "q16",
+    "text": "What are the three layers of mobile app architecture?",
+    "options": [
+      "UI, API, Database",
+      "Presentation, Business, Data",
+      "Frontend, Backend, Cache",
+      "HTML, CSS, JS"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The three layers are presentation, business logic, and data."
+  },
+  {
+    "id": "q17",
+    "text": "What is the presentation layer concerned with?",
+    "options": [
+      "Database storage",
+      "UI and UX",
+      "Server logic",
+      "Network requests"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The presentation layer handles UI design and user experience."
+  },
+  {
+    "id": "q18",
+    "text": "What does the business layer handle?",
+    "options": [
+      "Rendering images",
+      "Security, validation, caching",
+      "Styling components",
+      "Animations"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The business layer manages logic, security, caching, and validation."
+  },
+  {
+    "id": "q19",
+    "text": "What is the data layer responsible for?",
+    "options": [
+      "User input",
+      "Data transactions and persistence",
+      "Button clicks",
+      "Navigation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The data layer includes data utilities and access components."
+  },
+  {
+    "id": "q20",
+    "text": "Which architecture is commonly accepted for Android apps?",
+    "options": ["MVC", "MVP", "Clean Architecture", "MVVM"],
+    "correctAnswerIndex": 2,
+    "explanation": "Clean Architecture is the most commonly accepted for Android."
+  },
+  {
+    "id": "q21",
+    "text": "Which model does Apple recommend for iOS app architecture?",
+    "options": ["MVC", "Clean", "Redux", "Flux"],
+    "correctAnswerIndex": 0,
+    "explanation": "Apple recommends the Model-View-Controller (MVC) pattern."
+  },
+  {
+    "id": "q22",
+    "text": "What is a hybrid mobile app?",
+    "options": [
+      "Only native",
+      "Only web",
+      "Native shell with web front-end",
+      "Command line tool"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Hybrid apps use a native shell but HTML/CSS/JS for the front-end."
+  },
+  {
+    "id": "q23",
+    "text": "What is a key factor to consider when choosing a device platform?",
+    "options": [
+      "Screen size and DPI",
+      "Only the brand name",
+      "Cable type",
+      "Battery color"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Screen size, resolution, CPU, and RAM are important device factors."
+  },
+  {
+    "id": "q24",
+    "text": "What is a common front-end framework for mobile apps?",
+    "options": ["React", "Django", "Laravel", "Rails"],
+    "correctAnswerIndex": 0,
+    "explanation": "React is a popular front-end framework for building mobile apps."
+  },
+  {
+    "id": "q25",
+    "text": "What is the freemium business model?",
+    "options": [
+      "Paid only",
+      "Free with all features",
+      "Free basic, paid premium features",
+      "Subscription only"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Freemium offers basic features free and charges for premium ones."
+  },
+  {
+    "id": "q26",
+    "text": "How does the in-app advertising model generate revenue?",
+    "options": [
+      "Direct purchases",
+      "Displaying ads",
+      "Monthly fees",
+      "One-time payment"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Revenue comes from displaying advertisements within the app."
+  },
+  {
+    "id": "q27",
+    "text": "What is affiliate marketing in mobile apps?",
+    "options": [
+      "Selling the app",
+      "Earning commission on sales via links",
+      "Subscription fees",
+      "Donations"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Affiliate marketing earns commission when users buy through app links."
+  },
+  {
+    "id": "q28",
+    "text": "What is a key characteristic of a paid app model?",
+    "options": [
+      "Free with ads",
+      "User pays to download",
+      "Always free",
+      "Only subscription"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Users must pay upfront to download the app."
+  },
+  {
+    "id": "q29",
+    "text": "What is React Native based on?",
+    "options": ["Java", "Swift", "JavaScript and React", "C#"],
+    "correctAnswerIndex": 2,
+    "explanation": "React Native uses JavaScript and the React library."
+  },
+  {
+    "id": "q30",
+    "text": "What does a View component map to on iOS?",
+    "options": ["<div>", "UIView", "ViewGroup", "TextView"],
+    "correctAnswerIndex": 1,
+    "explanation": "View maps to UIView on iOS."
+  },
+  {
+    "id": "q31",
+    "text": "What does a View component map to on Android?",
+    "options": ["UIView", "ViewGroup", "<div>", "WebView"],
+    "correctAnswerIndex": 1,
+    "explanation": "View maps to ViewGroup on Android."
+  },
+  {
+    "id": "q32",
+    "text": "Which component is used for user text input?",
+    "options": ["<Text>", "<Input>", "<TextInput>", "<TextBox>"],
+    "correctAnswerIndex": 2,
+    "explanation": "<TextInput> allows users to enter text."
+  },
+  {
+    "id": "q33",
+    "text": "Which component displays images?",
+    "options": ["<Img>", "<Image>", "<Picture>", "<Photo>"],
+    "correctAnswerIndex": 1,
+    "explanation": "<Image> is used to display images."
+  },
+  {
+    "id": "q34",
+    "text": "What is JSX?",
+    "options": [
+      "A database language",
+      "A syntax extension for JavaScript",
+      "A styling framework",
+      "A navigation library"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "JSX allows writing HTML-like syntax within JavaScript."
+  },
+  {
+    "id": "q35",
+    "text": "How do you embed a JavaScript expression in JSX?",
+    "options": ["[ ]", "( )", "{ }", "< >"],
+    "correctAnswerIndex": 2,
+    "explanation": "Curly braces {} embed JavaScript expressions in JSX."
+  },
+  {
+    "id": "q36",
+    "text": "What is the purpose of props in React?",
+    "options": [
+      "Manage internal state",
+      "Customize components",
+      "Handle side effects",
+      "Create animations"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Props (properties) are used to pass data and customize components."
+  },
+  {
+    "id": "q37",
+    "text": "What is state used for in React?",
+    "options": [
+      "Passing data to children",
+      "Data that changes over time",
+      "Defining styles",
+      "Handling routing"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "State handles data that changes due to user interaction or time."
+  },
+  {
+    "id": "q38",
+    "text": "Which hook adds state to functional components?",
+    "options": ["useEffect", "useState", "useContext", "useReducer"],
+    "correctAnswerIndex": 1,
+    "explanation": "useState is the Hook that adds state to function components."
+  },
+  {
+    "id": "q39",
+    "text": "How are styles written in React Native?",
+    "options": [
+      "External CSS files",
+      "JavaScript objects",
+      "SASS files",
+      "Inline HTML styles"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Styles are defined as JavaScript objects, often with StyleSheet."
+  },
+  {
+    "id": "q40",
+    "text": "What naming convention is used for style properties?",
+    "options": [
+      "kebab-case",
+      "camelCase",
+      "snake_case",
+      "PascalCase"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Style properties use camelCase (e.g., backgroundColor)."
+  },
+  {
+    "id": "q41",
+    "text": "What does `flex: 1` do?",
+    "options": [
+      "Fixed size",
+      "Fill all available space",
+      "Hide component",
+      "Add margin"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "flex: 1 makes a component fill all available space."
+  },
+  {
+    "id": "q42",
+    "text": "How do you set a fixed width and height?",
+    "options": [
+      "flex: 1",
+      "width: 100, height: 100",
+      "flexGrow: 1",
+      "position: absolute"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Fixed dimensions are set using width and height properties."
+  },
+  {
+    "id": "q43",
+    "text": "What is the default value of `flexDirection`?",
+    "options": ["row", "column", "row-reverse", "column-reverse"],
+    "correctAnswerIndex": 1,
+    "explanation": "The default flexDirection in React Native is column."
+  },
+  {
+    "id": "q44",
+    "text": "Which property aligns children along the main axis?",
+    "options": ["alignItems", "justifyContent", "flexDirection", "alignSelf"],
+    "correctAnswerIndex": 1,
+    "explanation": "justifyContent aligns children along the main axis."
+  },
+  {
+    "id": "q45",
+    "text": "Which property aligns children along the cross axis?",
+    "options": ["justifyContent", "alignItems", "flexWrap", "flexBasis"],
+    "correctAnswerIndex": 1,
+    "explanation": "alignItems aligns children along the cross axis."
+  },
+  {
+    "id": "q46",
+    "text": "Which component displays a loading spinner?",
+    "options": ["<Spinner>", "<ProgressBar>", "<ActivityIndicator>", "<Loader>"],
+    "correctAnswerIndex": 2,
+    "explanation": "<ActivityIndicator> shows a circular loading animation."
+  },
+  {
+    "id": "q47",
+    "text": "Which component provides pull-to-refresh functionality?",
+    "options": ["<ScrollView>", "<RefreshControl>", "<FlatList>", "<View>"],
+    "correctAnswerIndex": 1,
+    "explanation": "<RefreshControl> is used inside scrollable views for pull-to-refresh."
+  },
+  {
+    "id": "q48",
+    "text": "When should you use FlatList instead of ScrollView?",
+    "options": [
+      "For small lists",
+      "For large lists of data",
+      "For single items",
+      "For static content"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "FlatList is efficient for large lists because it renders only visible items."
+  },
+  {
+    "id": "q49",
+    "text": "Which two props are required for FlatList?",
+    "options": [
+      "data and renderItem",
+      "data and keyExtractor",
+      "renderItem and onRefresh",
+      "horizontal and numColumns"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "FlatList requires `data` (the array) and `renderItem` (how to render each item)."
+  },
+  {
+    "id": "q50",
+    "text": "Which component renders sectioned lists?",
+    "options": ["FlatList", "SectionList", "VirtualizedList", "ListView"],
+    "correctAnswerIndex": 1,
+    "explanation": "SectionList is designed for lists with sections and headers."
+  },
+  {
+    "id": "q51",
+    "text": "How do you set a background image?",
+    "options": ["<Image>", "<ImageBackground>", "<BackgroundImage>", "<ImgBackground>"],
+    "correctAnswerIndex": 1,
+    "explanation": "<ImageBackground> wraps content with a background image."
+  },
+  {
+    "id": "q52",
+    "text": "What is the purpose of the StatusBar component?",
+    "options": [
+      "Show network status",
+      "Decorate the status bar of the app",
+      "Display battery level",
+      "Show notifications"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "StatusBar customizes the device's status bar appearance."
+  },
+  {
+    "id": "q53",
+    "text": "What is a native app?",
+    "options": [
+      "Runs in a browser",
+      "Developed for a specific OS",
+      "Uses only HTML",
+      "Cross-platform only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Native apps are built for a specific platform (iOS or Android)."
+  },
+  {
+    "id": "q54",
+    "text": "Which language is used for native iOS development?",
+    "options": ["Java", "Kotlin", "Swift", "C#"],
+    "correctAnswerIndex": 2,
+    "explanation": "Swift and Objective-C are used for native iOS development."
+  },
+  {
+    "id": "q55",
+    "text": "Which language is used for native Android development?",
+    "options": ["Swift", "Kotlin", "C#", "JavaScript"],
+    "correctAnswerIndex": 1,
+    "explanation": "Kotlin and Java are used for native Android development."
+  },
+  {
+    "id": "q56",
+    "text": "What is a key feature of hybrid apps?",
+    "options": [
+      "Single codebase for web and mobile",
+      "Best performance",
+      "No access to device features",
+      "Requires two separate teams"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Hybrid apps use one codebase (HTML/CSS/JS) for multiple platforms."
+  },
+  {
+    "id": "q57",
+    "text": "What is a cross-platform app?",
+    "options": [
+      "Only for web",
+      "Shares codebase with native UI feel",
+      "Only for iOS",
+      "No code reuse"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Cross-platform apps share code but provide a native user experience."
+  },
+  {
+    "id": "q58",
+    "text": "Which framework uses Dart?",
+    "options": ["React Native", "Xamarin", "Flutter", "Ionic"],
+    "correctAnswerIndex": 2,
+    "explanation": "Flutter uses the Dart programming language."
+  },
+  {
+    "id": "q59",
+    "text": "Which framework uses C#?",
+    "options": ["React Native", "Flutter", "Xamarin", "Cordova"],
+    "correctAnswerIndex": 2,
+    "explanation": "Xamarin uses C# for cross-platform development."
+  },
+  {
+    "id": "q60",
+    "text": "What is a progressive web app (PWA)?",
+    "options": [
+      "Native app only",
+      "Website that feels like an app",
+      "Desktop application",
+      "Server-side script"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "PWAs are websites that offer app-like experiences and can be installed."
+  },
+  {
+    "id": "q61",
+    "text": "What is a benefit of cross-platform development?",
+    "options": [
+      "Higher cost",
+      "Reduced development cost",
+      "Platform-specific code only",
+      "Slower time to market"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Cross-platform reduces cost by reusing code across platforms."
+  },
+  {
+    "id": "q62",
+    "text": "Which API does React Native provide for networking?",
+    "options": ["Axios", "Fetch", "HttpClient", "Request"],
+    "correctAnswerIndex": 1,
+    "explanation": "React Native provides the Fetch API for network requests."
+  },
+  {
+    "id": "q63",
+    "text": "What does the fetch method return?",
+    "options": ["String", "Object", "Promise", "Array"],
+    "correctAnswerIndex": 2,
+    "explanation": "Fetch returns a Promise for asynchronous handling."
+  },
+  {
+    "id": "q64",
+    "text": "How do you handle asynchronous operations with async/await?",
+    "options": [
+      "Using callbacks",
+      "Using promises only",
+      "Declaring function as async and using await",
+      "Using while loops"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "async functions use await to pause execution until promises resolve."
+  },
+  {
+    "id": "q65",
+    "text": "What is React Navigation used for?",
+    "options": [
+      "Styling components",
+      "Managing state",
+      "Building and connecting screens",
+      "Handling HTTP requests"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "React Navigation provides components for screen navigation."
+  },
+  {
+    "id": "q66",
+    "text": "Which component must wrap the navigator?",
+    "options": ["<Navigator>", "<Route>", "<NavigationContainer>", "<Screen>"],
+    "correctAnswerIndex": 2,
+    "explanation": "NavigationContainer wraps the navigation tree and manages state."
+  },
+  {
+    "id": "q67",
+    "text": "Which function creates a native stack navigator?",
+    "options": [
+      "createStackNavigator",
+      "createNativeStackNavigator",
+      "createBottomTabNavigator",
+      "createDrawerNavigator"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "createNativeStackNavigator creates a stack navigator using native APIs."
+  },
+  {
+    "id": "q68",
+    "text": "How do you navigate to a new screen?",
+    "options": [
+      "navigation.push()",
+      "navigation.navigate()",
+      "navigation.goBack()",
+      "navigation.pop()"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "navigation.navigate('RouteName') moves to the specified screen."
+  },
+  {
+    "id": "q69",
+    "text": "How do you pass parameters to a route?",
+    "options": [
+      "As a third argument",
+      "As a second object parameter to navigate",
+      "Using global variables",
+      "Through props only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Pass params as an object: navigate('Route', {param: value})."
+  },
+  {
+    "id": "q70",
+    "text": "How do you read passed parameters in a screen?",
+    "options": ["navigation.params", "route.params", "props.params", "state.params"],
+    "correctAnswerIndex": 1,
+    "explanation": "Access params via route.params in the screen component."
+  },
+  {
+    "id": "q71",
+    "text": "Which navigator provides a bottom tab bar?",
+    "options": [
+      "StackNavigator",
+      "DrawerNavigator",
+      "BottomTabNavigator",
+      "TopTabNavigator"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "createBottomTabNavigator creates a bottom tab bar."
+  },
+  {
+    "id": "q72",
+    "text": "Which navigator provides a side drawer menu?",
+    "options": [
+      "StackNavigator",
+      "DrawerNavigator",
+      "BottomTabNavigator",
+      "ModalNavigator"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "createDrawerNavigator provides a slide-out drawer menu."
+  },
+  {
+    "id": "q73",
+    "text": "What is AsyncStorage used for?",
+    "options": [
+      "Network requests",
+      "Persisting key-value data",
+      "Animations",
+      "Styling"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "AsyncStorage persists unencrypted key-value data locally."
+  },
+  {
+    "id": "q74",
+    "text": "Is AsyncStorage encrypted by default?",
+    "options": ["Yes", "No", "Only on iOS", "Only on Android"],
+    "correctAnswerIndex": 1,
+    "explanation": "AsyncStorage is unencrypted by default."
+  },
+  {
+    "id": "q75",
+    "text": "Which method saves data to AsyncStorage?",
+    "options": ["getItem", "setItem", "removeItem", "clear"],
+    "correctAnswerIndex": 1,
+    "explanation": "setItem(key, value) stores data in AsyncStorage."
+  },
+  {
+    "id": "q76",
+    "text": "Which method retrieves data from AsyncStorage?",
+    "options": ["getItem", "setItem", "removeItem", "mergeItem"],
+    "correctAnswerIndex": 0,
+    "explanation": "getItem(key) retrieves data associated with the key."
+  },
+  {
+    "id": "q77",
+    "text": "What is SQLite?",
+    "options": [
+      "NoSQL database",
+      "C-language SQL database",
+      "Cloud database",
+      "In-memory only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "SQLite is an open-source, C-language SQL database."
+  },
+  {
+    "id": "q78",
+    "text": "Which statement about ubiquitous computing is true?",
+    "options": [
+      "Only mainframes",
+      "Computing is invisible and everywhere",
+      "No wireless networks",
+      "Only desktops"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Ubiquitous computing makes computing invisible and integrated."
+  },
+  {
+    "id": "q79",
+    "text": "What are the four waves of computing?",
+    "options": [
+      "Mainframe, Desktop, Mobile, Ubiquitous",
+      "Web, Cloud, Mobile, AI",
+      "Desktop, Laptop, Tablet, Phone",
+      "Analog, Digital, Cloud, Quantum"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The waves: Mainframe (60s-70s), Desktop (80s-90s), Mobile (90s-00s), Ubiquitous (now)."
+  },
+  {
+    "id": "q80",
+    "text": "What is a biometric system in mobile security?",
+    "options": [
+      "Password only",
+      "Uses features like fingerprints or iris",
+      "PIN code",
+      "Pattern lock"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Biometrics uses unique physical traits for authentication."
+  },
+  {
+    "id": "q81",
+    "text": "What is a benefit of cloud computing for mobile?",
+    "options": [
+      "More hardware needed",
+      "On-demand resources and scalability",
+      "Slower performance",
+      "Less security"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Cloud offers on-demand resource pooling and scalability."
+  },
+  {
+    "id": "q82",
+    "text": "What is context-aware computing?",
+    "options": [
+      "Always offline",
+      "Using location and environment data",
+      "No sensors",
+      "Only manual input"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Context-aware computing uses location and environmental information."
+  },
+  {
+    "id": "q83",
+    "text": "Which component is used for touch feedback without animation?",
+    "options": [
+      "TouchableOpacity",
+      "TouchableHighlight",
+      "TouchableWithoutFeedback",
+      "TouchableNativeFeedback"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "TouchableWithoutFeedback handles touches without visual feedback."
+  },
+  {
+    "id": "q84",
+    "text": "Which component shows ink animation on Android?",
+    "options": [
+      "TouchableOpacity",
+      "TouchableHighlight",
+      "TouchableWithoutFeedback",
+      "TouchableNativeFeedback"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "TouchableNativeFeedback provides Android's ripple effect."
+  },
+  {
+    "id": "q85",
+    "text": "How do you set a network image source?",
+    "options": [
+      "require('./image.jpg')",
+      "{ uri: 'https://...' }",
+      "import image from '...'",
+      "source='url'"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Network images use source={{ uri: 'URL' }} and need dimensions."
+  },
+  {
+    "id": "q86",
+    "text": "What is required when using network images?",
+    "options": [
+      "No dimensions needed",
+      "Manually specify dimensions",
+      "Base64 encoding",
+      "Local file only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "You must specify width and height for network images."
+  },
+  {
+    "id": "q87",
+    "text": "Which component is a generic scrolling container?",
+    "options": ["FlatList", "SectionList", "ScrollView", "VirtualizedList"],
+    "correctAnswerIndex": 2,
+    "explanation": "ScrollView is a generic scrolling container for small amounts of content."
+  },
+  {
+    "id": "q88",
+    "text": "When is ScrollView inefficient?",
+    "options": [
+      "Small lists",
+      "Large lists with many items",
+      "Single item",
+      "Static content"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ScrollView renders all children at once, which is inefficient for large lists."
+  },
+  {
+    "id": "q89",
+    "text": "What is the WebView component used for?",
+    "options": [
+      "Styling",
+      "Loading web content",
+      "Database access",
+      "File system"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "WebView loads web pages or HTML content."
+  },
+  {
+    "id": "q90",
+    "text": "Which library now contains WebView?",
+    "options": [
+      "react-native-webview",
+      "react-native-core",
+      "expo-webview",
+      "react-dom"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "WebView was moved to the react-native-webview library."
+  },
+  {
+    "id": "q91",
+    "text": "What is the Picker component used for?",
+    "options": [
+      "Date selection",
+      "Selecting an item from multiple choices",
+      "Image picking",
+      "Color selection"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Picker provides a dropdown to select one option from many."
+  },
+  {
+    "id": "q92",
+    "text": "What does the ProgressBarAndroid component do?",
+    "options": [
+      "Shows network progress",
+      "Indicates progress status on Android",
+      "Displays download speed",
+      "Shows battery level"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ProgressBarAndroid indicates the progress of an activity on Android."
+  },
+  {
+    "id": "q93",
+    "text": "What is the purpose of keyExtractor in FlatList?",
+    "options": [
+      "Style items",
+      "Extract unique key for each item",
+      "Filter data",
+      "Sort items"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "keyExtractor provides a unique key for each list item for efficient updates."
+  },
+  {
+    "id": "q94",
+    "text": "Which hook lets you 'hook into' React features?",
+    "options": ["Component", "Props", "Hooks", "State"],
+    "correctAnswerIndex": 2,
+    "explanation": "Hooks are functions that let you use React features in functional components."
+  },
+  {
+    "id": "q95",
+    "text": "What is the TouchableHighlight effect?",
+    "options": [
+      "Opacity change",
+      "Darkens the element",
+      "Ink animation",
+      "No feedback"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "TouchableHighlight darkens the element when pressed."
+  },
+  {
+    "id": "q96",
+    "text": "What does the Switch component render?",
+    "options": [
+      "Slider",
+      "Boolean input",
+      "Button",
+      "Text field"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Switch renders a boolean input (on/off toggle)."
+  },
+  {
+    "id": "q97",
+    "text": "What is the main advantage of using StyleSheet?",
+    "options": [
+      "CSS support",
+      "Performance optimization and validation",
+      "Dynamic styling only",
+      "Inline styles only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "StyleSheet.create optimizes style references and provides validation."
+  },
+  {
+    "id": "q98",
+    "text": "What does the `disabled` prop do on a button?",
+    "options": [
+      "Change color",
+      "Disable user interaction",
+      "Hide button",
+      "Remove button"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "disabled={true} prevents user from pressing the button."
+  },
+  {
+    "id": "q99",
+    "text": "What is a stateless component?",
+    "options": [
+      "Has state",
+      "No internal state, only props",
+      "Uses useState",
+      "Class component only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Stateless components (functional) receive data via props and have no internal state."
+  },
+  {
+    "id": "q100",
+    "text": "What is a stateful component?",
+    "options": [
+      "Only props",
+      "Manages its own state",
+      "No re-rendering",
+      "Static only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Stateful components manage changing data using state."
+  },
+  {
+    "id": "q101",
+    "text": "How do you make a ScrollView scroll horizontally?",
+    "options": [
+      "horizontal={true}",
+      "direction='row'",
+      "flexDirection='row'",
+      "scrollX={true}"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Set the horizontal prop to true for horizontal scrolling."
+  },
+  {
+    "id": "q102",
+    "text": "What is the default value of `alignItems`?",
+    "options": ["flex-start", "center", "flex-end", "stretch"],
+    "correctAnswerIndex": 3,
+    "explanation": "The default alignItems value in React Native is stretch."
+  }
+]
