@@ -6,12 +6,13 @@ import {
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "react-native-reanimated";
 
 import { ThemeProvider, useAppTheme } from "@/context/ThemeContext";
 import { Colors } from "@/constants/theme";
 import { ThemedView } from "@/components/themed-view";
+import { AnimatedSplashScreen } from "@/components/animated-splash-screen";
 
 // Define Custom Navigation Themes to match our brand
 const CustomDarkTheme = {
@@ -48,15 +49,32 @@ export const unstable_settings = {
 
 function InnerLayout() {
   const { isDark } = useAppTheme();
+  const [isAppReady, setIsAppReady] = useState(false);
+  const [isSplashFinished, setIsSplashFinished] = useState(false);
 
   useEffect(() => {
-    // Hide splash screen after initialization
-    const timer = setTimeout(() => {
-      SplashScreen.hideAsync().catch(() => {});
-    }, 2000);
+    // Basic initialization
+    const prepare = async () => {
+      try {
+        // Any async tasks (fonts, data, etc.) would go here
+        await new Promise(resolve => setTimeout(resolve, 500));
+      } catch (e) {
+        console.warn(e);
+      } finally {
+        setIsAppReady(true);
+        // Hide the native splash screen as soon as our app is ready to show the custom one
+        await SplashScreen.hideAsync().catch(() => {});
+      }
+    };
 
-    return () => clearTimeout(timer);
+    prepare();
   }, []);
+
+  if (!isAppReady || !isSplashFinished) {
+    return (
+      <AnimatedSplashScreen onAnimationComplete={() => setIsSplashFinished(true)} />
+    );
+  }
 
   return (
     <NavThemeProvider value={isDark ? CustomDarkTheme : CustomLightTheme}>
@@ -84,3 +102,4 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 }
+

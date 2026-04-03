@@ -19,31 +19,6 @@ export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   const [isSplashVisible, setIsSplashVisible] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsSplashVisible(false), 5000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (isSplashVisible) {
-    return (
-      <ThemedView
-        style={[
-          AppStyles.container,
-          AppStyles.centeredFlex,
-          { backgroundColor: theme.background },
-        ]}
-      >
-        <Image
-          source={require("@/assets/images/logo.png")}
-          style={{ width: 180, height: 180, marginBottom: 20 }}
-          contentFit="contain"
-        />
-        <ThemedText type="title">React Native</ThemedText>
-        <ThemedText style={{ marginTop: 8, color: theme.icon }}>
-        </ThemedText>
-      </ThemedView>
-    );
-  }
 
   const renderHeader = () => (
     <View style={{ marginBottom: 24 }}>
