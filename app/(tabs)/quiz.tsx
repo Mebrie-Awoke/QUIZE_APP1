@@ -54,7 +54,7 @@ export default function QuizScreen() {
     }
   };
 
-  // Landing state: show a start button
+
   if (!quizStarted) {
     return (
       <ThemedView
@@ -75,12 +75,12 @@ export default function QuizScreen() {
             <IconSymbol name="play.circle.fill" color={theme.tint} size={56} />
           </View>
           <ThemedText type="title" style={{ marginBottom: 12 }}>
-            Ready to Quiz?
+            Ready for a Quiz?
           </ThemedText>
           <ThemedText
             style={{ color: theme.icon, textAlign: "center", marginBottom: 32, lineHeight: 22 }}
           >
-            Test your React Native knowledge with 10 randomized questions.
+            Test your React Native knowledge with 10 questions.
           </ThemedText>
           <TouchableOpacity
             style={[AppStyles.primaryButton, { backgroundColor: theme.tint, paddingHorizontal: 40 }]}
@@ -103,7 +103,7 @@ export default function QuizScreen() {
       >
         <View style={AppStyles.scoreContainer}>
           <ThemedText type="title" style={{ marginBottom: 20 }}>
-            Quiz Completed!
+            Quiz Completed
           </ThemedText>
           <ThemedView
             style={[AppStyles.scoreCircle, { borderColor: theme.tint }]}
@@ -117,8 +117,8 @@ export default function QuizScreen() {
           </ThemedView>
           <ThemedText style={[AppStyles.scoreMessage, { color: theme.text }]}>
             {score === questions.length
-              ? "Perfect Score! You're an RN Master! 🎉"
-              : "Great effort! Keep studying those notes!"}
+              ? "Perfect Score, You're an RN Master"
+              : "Great effort, Keep studying those notes"}
           </ThemedText>
           <TouchableOpacity
             style={[
@@ -185,8 +185,8 @@ export default function QuizScreen() {
           >
             <ThemedText style={AppStyles.actionButtonText}>
               {currentIndex < questions.length - 1
-                ? "Next Question"
-                : "Finish Quiz"}
+                ? "Next"
+                : "Finish"}
             </ThemedText>
           </TouchableOpacity>
         )}

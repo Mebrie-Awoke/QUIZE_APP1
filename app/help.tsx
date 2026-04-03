@@ -19,7 +19,7 @@ export default function HelpScreen() {
     {
       title: "Getting Started",
       icon: "house.fill",
-      content: "Welcome to RN Mastery! This app is designed to help you master React Native through focused study notes and challenging quizzes.",
+      content: " This app is designed to help you master React Native through focused study notes and challenging quizzes.",
     },
     {
       title: "Study Notes",
@@ -31,11 +31,7 @@ export default function HelpScreen() {
       icon: "paperplane.fill",
       content: "The Quiz tab offers a randomized 10-question quiz pulled from over 100 library questions. Test your knowledge and see your score at the end!",
     },
-    {
-      title: "Personalization",
-      icon: "gearshape.fill",
-      content: "Use the Settings tab to switch between Light and Dark mode. Your preference will be remembered as you navigate the app.",
-    },
+  
   ];
 
   return (
@@ -47,7 +43,7 @@ export default function HelpScreen() {
         >
           <IconSymbol name="chevron.left" color={theme.tint} size={28} />
         </TouchableOpacity>
-        <ThemedText type="title">Help & Guide</ThemedText>
+        <ThemedText type="title">Help </ThemedText>
       </View>
 
       <ScrollView contentContainerStyle={{ padding: 20, gap: 20 }}>
@@ -79,7 +75,7 @@ export default function HelpScreen() {
             RN Mastery Version 1.0.0
           </ThemedText>
           <ThemedText style={{ color: theme.icon, fontSize: 12, marginTop: 4 }}>
-            Built with React Native & Expo
+            Built by Mebrie for React Native Developers
           </ThemedText>
         </View>
       </ScrollView>

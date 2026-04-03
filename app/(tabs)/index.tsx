@@ -24,10 +24,10 @@ export default function HomeScreen() {
     <View style={{ marginBottom: 24 }}>
       <View style={[AppStyles.homeHeader, { marginTop: 24 }]}>
         <ThemedText type="title" style={AppStyles.homeTitle}>
-          Wellcome To React Native Quiz App 
+          Welcome To React Native Quiz App
         </ThemedText>
         <ThemedText style={[AppStyles.homeSubtitle, { color: theme.icon }]}>
-          Master React Native with concise notes with 100+ quiz questions.
+          Master React Native with concise notes with quiz questions.
         </ThemedText>
       </View>
 
