@@ -10,7 +10,7 @@ The application provides a comprehensive study notes library that covers 23 esse
 The application is built using React Native with the Expo framework, leveraging TypeScript and JavaScript for development. Navigation is handled through Expo Router, which follows a file-based routing approach. State management is implemented using React Hooks such as useState, useEffect, and useContext, ensuring efficient and maintainable logic handling. Styling is achieved through StyleSheet combined with a custom theming system, while application data is managed using static JSON files. The architecture follows a component-based design, separating the presentation, logic, and data layers to ensure scalability and maintainability.
 
 ## Core Modules
-Home Screen 
+### Home Screen 
 The home screen serves as the main entry point of the application, presenting users with a welcome interface, quick access to the quiz feature, and a preview of the study notes. It is designed to provide a clear and intuitive starting experience for users.
 
 Displays the main dashboard with quiz access and notes preview.
