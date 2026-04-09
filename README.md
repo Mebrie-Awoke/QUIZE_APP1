@@ -46,7 +46,7 @@ The splash screen serves as the initial loading interface, featuring a smooth an
 Displays animated branding during application startup.
 
  
-Data Design
+## Data Design
 The application uses structured data models to manage both quiz questions and study notes. Each question includes an identifier, the question text, multiple answer options, the correct answer index, and a brief explanation. Similarly, each note is organized by topic and contains formatted content that supports enhanced readability and structured learning.
 
  Installation & Setup
