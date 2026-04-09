@@ -49,7 +49,7 @@ Displays animated branding during application startup.
 ## Data Design
 The application uses structured data models to manage both quiz questions and study notes. Each question includes an identifier, the question text, multiple answer options, the correct answer index, and a brief explanation. Similarly, each note is organized by topic and contains formatted content that supports enhanced readability and structured learning.
 
- Installation & Setup
+## Installation & Setup
 To set up the application dependencies are installed using a package manager such as npm. The development server is then started using Expo, allowing the application to run on a physical device via Expo Go or on an emulator. The setup process is straightforward and does not require additional environment configuration.
 
 cd quize_app
