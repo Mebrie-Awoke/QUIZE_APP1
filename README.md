@@ -1,6 +1,6 @@
 # Quiz APP
 
- Overview
+## Overview
 The React Native Mastery Quiz App is a cross-platform mobile application developed using React Native (Expo). It is designed to support developers in learning and mastering React Native concepts through a combination of structured study notes and an interactive quiz system. The application delivers a seamless and engaging user experience across iOS, Android, and web platforms by integrating educational content with dynamic assessment features.
 
 Key Features
