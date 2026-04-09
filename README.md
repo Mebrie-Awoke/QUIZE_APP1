@@ -53,12 +53,13 @@ The application uses structured data models to manage both quiz questions and st
 To set up the application dependencies are installed using a package manager such as npm. The development server is then started using Expo, allowing the application to run on a physical device via Expo Go or on an emulator. The setup process is straightforward and does not require additional environment configuration.
 
 ```bash
+git clone https://github.com/Mebrie-Awoke/QUIZE_APP1
 cd quize_app
 npm install
 npx expo start 
 ```
 
- Testing & Debugging
+ ## Testing & Debugging
 The application supports multiple debugging and testing approaches, including remote JavaScript debugging through browser developer tools, console logging for runtime inspection, and React DevTools for component-level analysis. Additionally, Expo provides real-time logs in the terminal, facilitating efficient issue tracking. The application also accounts for various edge cases, such as empty data states, platform-specific behavior differences, and responsive layout handling.
 
  Future Enhancements
