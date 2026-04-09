@@ -65,9 +65,9 @@ The application supports multiple debugging and testing approaches, including re
 ## Future Enhancements
 Future improvements for the application include integrating a backend system to enable data synchronization across devices, implementing user authentication for personalized experiences, and adding offline support for uninterrupted access to content. Additional features such as progress tracking, push notifications, and flashcard-based learning modes can further enhance the overall functionality and user engagement.
 
- Conclusion
+ ## Conclusion
 The React Native Mastery Quiz App successfully delivers a structured and interactive learning platform for developers. By combining well-organized educational content with a dynamic quiz system, the application demonstrates strong capabilities in cross-platform development, modular architecture design, and user-centered interface implementation.
 
-Appendix
+## Appendix
 The application includes a question bank of over 100 questions and a collection of 23 structured study notes. It is fully compatible with iOS, Android, and web platforms, ensuring broad accessibility and usability.
 
