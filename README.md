@@ -36,7 +36,7 @@ The settings module provides access to additional application functionalities, i
 
 
 Displays available settings and support options.
-Help Module
+### Help Module
 The help module is designed to assist users by providing clear instructions and guidance on how to use the application effectively. It ensures that users can easily understand the app’s features and navigation flow.
 
 Provides usage instructions and helpful tips.
