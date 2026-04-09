@@ -31,7 +31,7 @@ Shows final score and performance summary.
 ### Study Notes Module
 The study notes module offers structured educational content presented in collapsible card formats. Each note supports rich text formatting, including bold text, inline code, and multi-line code blocks. This design enhances readability and allows users to focus on specific topics by expanding or collapsing content as needed.
 Expanded note view displaying detailed explanations and code snippets.
-Settings Module
+### Settings Module
 The settings module provides access to additional application functionalities, including help resources, application information, and sharing options. It acts as a centralized location for user support and app-related configurations.
 
 
