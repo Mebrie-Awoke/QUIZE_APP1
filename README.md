@@ -16,7 +16,7 @@ The home screen serves as the main entry point of the application, presenting us
 Displays the main dashboard with quiz access and notes preview.
 
 
-Quiz Module
+### Quiz Module
 The quiz module manages the complete assessment workflow, beginning from quiz initiation to final result display. When a user starts a quiz, the system randomly selects ten questions from the available question bank. Each question provides immediate feedback upon selection, including visual indicators and explanations. The module also tracks user progress and calculates the final score, which is presented at the end along with an option to retry the quiz.
 
 Initial interface prompting users to begin the quiz.
