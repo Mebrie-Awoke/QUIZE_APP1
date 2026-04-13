@@ -65,6 +65,7 @@ npx expo start
 ```
 
  ## Testing & Debugging
+ 
 The application supports multiple debugging and testing approaches, including remote JavaScript debugging through browser developer tools, console logging for runtime inspection, and React DevTools for component-level analysis. Additionally, Expo provides real-time logs in the terminal, facilitating efficient issue tracking. The application also accounts for various edge cases, such as empty data states, platform-specific behavior differences, and responsive layout handling.
 
 ## Future Enhancements
