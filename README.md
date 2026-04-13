@@ -39,6 +39,7 @@ Expanded note view displaying detailed explanations and code snippets.
 The settings module provides access to additional application functionalities, including help resources, application information, and sharing options. It acts as a centralized location for user support and app-related configurations.
 
 Displays available settings and support options.
+
 ### Help Module
 The help module is designed to assist users by providing clear instructions and guidance on how to use the application effectively. It ensures that users can easily understand the app’s features and navigation flow.
 
