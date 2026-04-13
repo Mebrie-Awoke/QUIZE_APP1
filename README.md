@@ -14,6 +14,7 @@ The application is built using React Native with the Expo framework, leveraging 
 
 
 ## Core Modules
+
 ### Home Screen 
 The home screen serves as the main entry point of the application, presenting users with a welcome interface, quick access to the quiz feature, and a preview of the study notes. It is designed to provide a clear and intuitive starting experience for users.
 
