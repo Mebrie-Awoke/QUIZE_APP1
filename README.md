@@ -59,4 +59,3 @@ The React Native Mastery Quiz App successfully delivers a structured and interac
 
 ## Appendix
 The application includes a question bank of over 100 questions and a collection of 23 structured study notes. It is fully compatible with iOS, Android, and web platforms, ensuring broad accessibility and usability.
-
