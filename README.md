@@ -44,6 +44,7 @@ Displays available settings and support options.
 The help module is designed to assist users by providing clear instructions and guidance on how to use the application effectively. It ensures that users can easily understand the app’s features and navigation flow.
 
 Provides usage instructions and helpful tips.
+
 ### Splash Screen
 The splash screen serves as the initial loading interface, featuring a smooth animation that enhances branding and provides a polished first impression.
 
